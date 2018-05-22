@@ -5,8 +5,9 @@
   "author": "{{ author }}",
   "private": true,
   "scripts": {
-    "start": "npm run dev",
-    "build": "node build/build.js"
+    "update": "", // 依赖文件下载
+    "init": "", // 依赖文件移动
+    "build": "" // 渠道打包
   },
   "dependencies": {
   },
