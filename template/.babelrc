@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-2"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]{{#if_eq dependency "byneed"}},
+    ["import", {
+      "libraryName": "iview",
+      "libraryDirectory": "src/components"
+    }]
+    {{/if_eq}}
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2"],
+      "plugins": [ "istanbul" ]
+    }
+  }
+}

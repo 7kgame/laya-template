@@ -1,0 +1,15 @@
+{
+  "name": "laya game template",
+  "version": "1.0.0",
+  "description": "laya game template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laya",
+    "template",
+    "game"
+  ],
+  "author": "cyij",
+  "license": "MIT",
+}
